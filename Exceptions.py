@@ -73,13 +73,14 @@
 # a=area(-10,9)
 # print(a)
 
-def validate_age(age):
-    if age>18 and age<60:
-        return True
-    else:
-        raise InvalidError("age must be between 18 and 60")
-class InvalidError(Exception):
-    pass
+# def validate_age(age):
+#     if age>18 and age<60:
+#         return True
+#     else:
+#         raise InvalidError("age must be between 18 and 60")
+# class InvalidError(Exception):
+#     pass
+#
+# v=validate_age(17)
+# print(v)
 
-v=validate_age(17)
-print(v)
